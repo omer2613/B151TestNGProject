@@ -1,6 +1,5 @@
 package techproed.tests.day28_DataProvider;
 
-import org.openqa.selenium.Keys;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import techproed.pages.GooglePage;
@@ -32,7 +31,7 @@ public class C02_DataProviderTest {
         googlePage.aramaKutusu.submit();
         ReusableMethods.bekle(2);
         //Her sayfa icin sayfa resmi alalim
-        ReusableMethods.tumSayfaResmi();
+       // ReusableMethods.tumSayfaResmi(test01(arabalar()).getName());
 
         //sayfayi kapatalim
         Driver.closeDriver();
